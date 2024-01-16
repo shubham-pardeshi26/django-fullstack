@@ -4,5 +4,7 @@ from django.urls import path
 
 from .views import index
 urlpatterns = [
-    path('abcd/', index),
+    path('', index),
+    path('join', index),
+    path('create', index),
 ]
